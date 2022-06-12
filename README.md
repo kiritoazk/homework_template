@@ -37,9 +37,9 @@ X[0]为开始值, 0<X[0]<m。
 
 ## 实验内容
 
-1. [test_1](BubbleSort.c) 冒泡算法实现的版本
-2. [test_1](MergeSort.c)  归并算法实现的版本
-3. [test_1](QuickSort.c)  快速排序算法实现的版本
+1. [test_1](/test_1/BubbleSort.c) 冒泡算法实现的版本
+2. [test_1](/test_1/MergeSort.c)  归并算法实现的版本
+3. [test_1](/test_1/QuickSort.c)  快速排序算法实现的版本
 
 ## 实验预期结果与实际结果
 + 实验预期结果：
