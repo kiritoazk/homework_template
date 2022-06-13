@@ -54,7 +54,7 @@
 
 
 ## 实验结果
-！[image]()
+![image](https://raw.githubusercontent.com/kiritoazk/homework_template/main/test_2/img/capture_20220613192155142.bmp)
 
 ## 实验要求
 
@@ -70,5 +70,5 @@ n 个随机数作为 n 个物品的重量，再生成 n 个随机数作为 n 个
 程序执行时间的对比曲线图（4 条折线）。
 
 ## 实验结果
-
+![image](https://github.com/kiritoazk/homework_template/blob/main/test_2/img/capture_20220613192932359.bmp)
 
