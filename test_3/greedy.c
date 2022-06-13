@@ -4,7 +4,6 @@
 #include<time.h>
 
 void package(float P[], float w[], int M,int n);//贪心算法
-//void package(int n,float c,float v[],float w[],int x[]);
 void RandomWeight(float *list, int n, int l, int r);//随机生成n个数，每个数的范围在[l,r]之间
 void RandomValue(float *list, int n, int l, int r);//随机生成n个数，每个数的范围在[l,r]之间
 void sortkp(float pw[],int index[], float w[],float v[],int M,int n);//按照价值排序
@@ -33,11 +32,9 @@ int main(){
   float pw[n];
   int x[n];
   sortkp(pw,x,w,v,M,n);
-  //package(v,w,c,n);
   end = clock();
   cost = (double)(end - begin)*1000/CLOCKS_PER_SEC;
-  //CLOCKS_PER_SEC=1000,它用来表示一秒钟会有多少个时钟计时单元，
-  //时钟计时单元的长度为1毫秒，clock()/CLOCKS_PER_SEC就是将毫秒转化为秒。
+  
 
   printf("\n运行时间: %lf ms",cost);
   printf("\n");
@@ -62,13 +59,11 @@ void package(float P[], float w[], int M,int n)
     }
     x[i] = 1;
     cu = cu - w[i];
-    //printf("放入第%d件物品，背包剩余容量%f.\n", (i + 1), cu);
   }
 
   if (i < n) //还可以放入一个物品的一部分
   {
     x[i] = cu / w[i];
-    //printf("\n放入第%d件物品的%f部分.背包剩余容量为0.\n", (i + 1), w[i] * x[i]);
   }
   printf("\n问题的最优解为：\n");
   for (i = 0; i < n; i++)
