@@ -28,25 +28,24 @@
 
 文本数据集：
 
-文件数据集：[数据集](https://github.com/kiritoazk/homework_template/blob/main/data/list2.txt)
+文件数据集：[数据集](https://github.com/kiritoazk/homework_template/blob/main/data/list3.txt)
 
 ## 实验内容
 
 编程实现以上求解背包问题的贪心算法，并通过手动设置、生成随机数获得
 实验数据。记录随着输入规模增加算法的执行时间，分析并以图形方式展现增长
 率；测试、验证、对比算法的时间复杂度。
-1. [test_2](/test_2/KnapsackDP.c) 贪心算法
+1. [test_2](https://github.com/kiritoazk/homework_template/blob/main/test_3/greedy.c) 贪心算法
 
 
 ## 实验预期结果与实际结果
 实验预期结果：
 我们输入背包的容量100，物品的数量10，程序开始运行随机生成物品的重量以及
-价值并且开始装入背包，结果会输出装入背包的过程以及被标记的装入背包的物品
-并且会记录装入背包的最大价值以及程序运行的总时间
+价值并且开始装入背包，结果装入背包的最优解以及程序运行的总时间以及装入背包的总价值
 
 
 ## 实验结果
-![image](https://raw.githubusercontent.com/kiritoazk/homework_template/main/test_2/img/capture_20220613192155142.bmp)
+![image]()
 
 ## 实验要求
 
@@ -56,7 +55,6 @@
 
 (2) 设定一个 m 值，测试随着 n 增加、程序执行时间增加的趋势。分别使用
 1.1 节中的随机数生成算法生成 n 个随机数作为 n 个物品的重量，再生成 n 个随
-14
 机数作为 n 个物品的价值（n=10, 20, 40, 100, 200, 400, 800, 2000）。记录随着 n
 增加程序的执行时间，并使用 MS Excel、Matlab 或 Origin 等图表绘制工具生成
 程序执行时间的对比曲线图。
@@ -65,4 +63,4 @@
 
 
 ## 实验结果
-![image](https://github.com/kiritoazk/homework_template/blob/main/test_2/img/capture_20220613192932359.bmp)
+![image]()
