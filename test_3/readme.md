@@ -35,7 +35,7 @@
 编程实现以上求解背包问题的贪心算法，并通过手动设置、生成随机数获得
 实验数据。记录随着输入规模增加算法的执行时间，分析并以图形方式展现增长
 率；测试、验证、对比算法的时间复杂度。
-1. [test_2](https://github.com/kiritoazk/homework_template/blob/main/test_3/greedy.c) 贪心算法
+1. [test_3](https://github.com/kiritoazk/homework_template/blob/main/test_3/greedy.c) 贪心算法
 
 
 ## 实验预期结果与实际结果
@@ -43,9 +43,6 @@
 我们输入背包的容量100，物品的数量10，程序开始运行随机生成物品的重量以及
 价值并且开始装入背包，结果装入背包的最优解以及程序运行的总时间以及装入背包的总价值
 
-
-## 实验结果
-![image]()
 
 ## 实验要求
 
@@ -61,6 +58,8 @@
 
 (3) 与理论上的时间复杂度结论进行对比分析，完成实验报告。
 
-
 ## 实验结果
-![image]()
+![image](https://raw.githubusercontent.com/kiritoazk/homework_template/main/test_3/img/capture_20220613173522259.bmp)
+
+
+
