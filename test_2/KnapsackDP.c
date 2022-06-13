@@ -102,6 +102,8 @@ int main(){
 
     int n;         //物品数量
     int Capacity;  //背包最大容量
+    int i;
+    for(i=0;i<10000;i++){
 
     printf("请输入背包的最大容量:");
     scanf("%d",&Capacity);
@@ -116,7 +118,7 @@ int main(){
     double cost;//程序的运行时间
 
     printf("随机生成物品的重量为：\n");
-    RandomW(weight,n,1,100);//通过调用随机函数生成随机物品
+    RandomW(weight,n,1,100);//通过调用随机函数生成随机的物品重量
 
     printf("\n随机生成物品的价值:\n");
     RandomV(value,n,1,100);
@@ -128,6 +130,7 @@ int main(){
     end = clock();//记录结束时间
     cost = (double)(end - begin)*1000/CLOCKS_PER_SEC;
     printf("\n算法运行时间: %lf ms",cost);
+    }
     return 0;
 }
 
