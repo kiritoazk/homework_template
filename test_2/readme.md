@@ -41,8 +41,8 @@
 
 ## 实验内容
 
-1. [test_2](/test_2/BubbleSort.c) 冒泡算法实现的版本
-2. [test_2](/test_2/MergeSort.c)  归并算法实现的版本
+1. [test_2](/test_2/KnapsackDP.c) 0-1背包问题
+2. [test_2](/test_2/.c)  
 
 
 ## 实验预期结果与实际结果
